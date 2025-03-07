@@ -27,12 +27,12 @@ body, html {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 10px;
     color: var(--cor04);
 }
 div#container {
-    max-width: 240px;
+    max-width: 360px;
     margin: 0 auto;
     padding: 5px;
     background-color: var(--cor02);
@@ -42,23 +42,23 @@ div#container {
 
 input[type="text"] {
     width: 100%;
-    height: 40px;
+    height: 74px;
     padding: 0px 5px;
     border-radius: 5px;
     border: none;
     background-color: transparent;
     color: var(--cor05);
     direction: rtl;
-    font-size: 1.3rem;
+    font-size: 2.2rem;
     margin: 5px 0px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.350);
 }
 
 input[type="button"] {
-    width: 44px; 
-    height: 44px;
+    width: 74px; 
+    height: 74px;
     margin: 5px;
-    border-radius: 22px;
+    border-radius: 37px;
     border: none;
     font-size: 1.2rem;
     font-weight: bold;
@@ -66,7 +66,7 @@ input[type="button"] {
 }
 
 input.btesp {
-    width: 102px;
+    width: 162px;
 }
 
 
@@ -75,7 +75,7 @@ footer {
     padding-top: 10px;
     color: var(--cor04);
     text-transform: uppercase;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 
 }
 
