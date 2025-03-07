@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <title>Calculadora V 0.1</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div id="container">
+        <form action="" method="post" autocomplete="off">
+            <p>
+                <input type="text" name="display" id="display">
+            </p>
+            <p>
+                <input type="button" value="7" onclick="sete()">
+                <input type="button" value="8" onclick="oito()">
+                <input type="button" value="9" onclick="nove()">
+                <input type="button" value="del" onclick="del()">
+            </p>
+            <p>
+                <input type="button" value="4" onclick="quatro()">
+                <input type="button" value="5" onclick="cinco()">
+                <input type="button" value="6" onclick="seis()">
+                <input type="button" value="x" onclick="mult()">
+                <input type="button" value="/" onclick="div()">
+            </p>
+
+            <p>
+                <input type="button" value="1" onclick="um()">
+                <input type="button" value="2" onclick="dois()">
+                <input type="button" value="3" onclick="tres()">
+                <input type="button" value="+" onclick="som()">
+                <input type="button" value="-" onclick="sub()">
+            </p>
+            <p>
+                <input type="button" value="0" onclick="zero()">
+                <input type="button" value="." onclick="ponto()">
+                <input type="button" value="ans" onclick="answ()">
+                <input type="button" value="=" onclick="igual()">
+            </p>
+        </form>
+    </div>
+    <footer>
+        <p> &copy; Desenvolvido por <a
+            href="http://www.github.com/joaoalvarobaptista">João Alvaro.</a></p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
